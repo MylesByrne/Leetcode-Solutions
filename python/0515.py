@@ -20,6 +20,5 @@ class Solution:
                     queue.append(node.left)
                 if node.right:
                     queue.append(node.right)
-
             product.append(max(row_values))
         return product
